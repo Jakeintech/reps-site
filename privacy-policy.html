@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reps — Privacy Policy</title>
+    <meta name="description" content="Privacy Policy for Reps. Reps is 100% on-device. No accounts, no servers, no tracking.">
+    <style>
+        :root { color-scheme: light dark; }
+        body { font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; max-width: 720px; margin: 40px auto; padding: 0 20px; color: #1d1d1f; line-height: 1.65; }
+        @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } table th { background: #1a1a1a !important; color: #f5f5f7 !important; } table td, table th { border-color: #333 !important; } a { color: #ff5050 !important; } .callout { background: #1a0000 !important; } }
+        h1 { font-size: 30px; margin-bottom: 8px; letter-spacing: -0.3px; }
+        h2 { font-size: 20px; margin-top: 36px; border-bottom: 1px solid #e5e5e7; padding-bottom: 4px; }
+        h3 { font-size: 16px; margin-top: 22px; }
+        .date { color: #86868b; margin-bottom: 32px; }
+        a { color: #E03030; }
+        table { width: 100%; border-collapse: collapse; margin: 16px 0; font-size: 13px; }
+        th, td { border: 1px solid #d2d2d7; padding: 8px 10px; text-align: left; vertical-align: top; }
+        th { background: #f5f5f7; font-weight: 600; }
+        .callout { background: #fff4f4; border-left: 4px solid #E03030; padding: 16px 20px; border-radius: 8px; margin: 24px 0; }
+        .callout p:last-child { margin-bottom: 0; }
+        code { background: #f5f5f7; padding: 1px 5px; border-radius: 3px; font-size: 13px; }
+        .back { margin-top: 48px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Reps Privacy Policy</h1>
+    <p class="date">Last updated: April 18, 2026 · Effective: April 18, 2026</p>
+
+    <div class="callout">
+        <p><strong>Reps is entirely on-device.</strong> We do not operate servers. We do not offer user accounts. We do not run analytics, advertising, attribution, or crash-reporting SDKs. We do not receive, transmit, or store your personal information on any infrastructure under our control.</p>
+        <p>This policy explains what data the Reps iPhone app, Apple Watch companion, widgets, Live Activity, App Clip, and related extensions access on your device, why, and the rights you have under the laws that apply to you.</p>
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p><strong>Denvered</strong> ("Reps," "we," "us," "our") is the developer of the Reps iOS and watchOS applications. Our principal place of business is in the State of Colorado, United States. For privacy questions, data-subject requests, DPO-equivalent contact, DMCA, sanctions or export inquiries, write to:</p>
+    <p><strong>Email:</strong> <a href="mailto:privacy@denvered.com">privacy@denvered.com</a><br>
+    <strong>General:</strong> <a href="mailto:info@denvered.com">info@denvered.com</a></p>
+    <p>A formal Data Protection Officer is not legally required for Reps because we do not engage in large-scale systematic monitoring or large-scale processing of special-category data on any server we control (GDPR Art. 37). The addresses above are the authoritative privacy contact. For users in the EEA or UK, Denvered does not intentionally target the EU/UK market beyond App Store availability; Article 27 representative inquiries may be directed to the same addresses and will be answered within statutory timelines.</p>
+
+    <h2>2. Scope</h2>
+    <p>This policy covers: the <strong>Reps</strong> iOS app, the <strong>RepsWatch</strong> watchOS companion, the Reps widgets (home, lock, Control Center, StandBy), the Reps Live Activity and Dynamic Island presentations, and the Reps App Clip. It does <strong>not</strong> cover:</p>
+    <ul>
+        <li>The Denvered Shopify storefront where optional NFC Starter Packs are sold — that site has its own privacy policy governed by Shopify's infrastructure.</li>
+        <li>Apple's own services (HealthKit, iCloud, App Store, Apple Music, StoreKit) — governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+        <li>Third-party destinations you choose to send content to (Strava, Instagram, iMessage, etc.) — governed by those services' own terms.</li>
+    </ul>
+
+    <h2>3. Our core privacy posture</h2>
+    <ul>
+        <li><strong>No accounts.</strong> Reps has no sign-up, no username, no password. We do not know who you are.</li>
+        <li><strong>No servers.</strong> Denvered operates no backend, no API, no CDN, no custom database. No server receives your data.</li>
+        <li><strong>No third-party SDKs.</strong> Reps is built exclusively on Apple frameworks. There is no Google Analytics, Firebase, Mixpanel, Amplitude, Segment, Branch, Adjust, AppsFlyer, Sentry, Crashlytics, Facebook SDK, or equivalent.</li>
+        <li><strong>No tracking.</strong> Reps does not track you across apps or websites owned by other companies. The app does not request App Tracking Transparency permission, does not read the IDFA, and does not use SKAdNetwork.</li>
+        <li><strong>No advertising.</strong> Reps shows no ads. Your data is never used for advertising or marketing under any circumstance.</li>
+        <li><strong>No sale, no share.</strong> We do not sell, rent, lease, share, or otherwise disclose your personal information to any third party.</li>
+    </ul>
+
+    <h2>4. Data handled by Reps — at a glance</h2>
+    <p>The following table is the canonical disclosure. Every row states where the data lives, how long, and with whom it is shared.</p>
+    <table>
+        <tr>
+            <th>Data</th>
+            <th>Framework / Source</th>
+            <th>Purpose</th>
+            <th>Stored</th>
+            <th>Retention</th>
+            <th>Shared</th>
+        </tr>
+        <tr><td>Workout records (sets, reps, weight, tempo, RPE, notes)</td><td>SwiftData (local) + HealthKit write</td><td>Core logging</td><td>Device + HealthKit</td><td>Until you delete</td><td>No</td></tr>
+        <tr><td>Exercise &amp; routine library</td><td>SwiftData (local)</td><td>Customization</td><td>Device</td><td>Until you delete</td><td>No</td></tr>
+        <tr><td>HealthKit reads (HR, HRV, gait, sleep, body metrics)</td><td>HealthKit</td><td>Readiness, Longevity Panel</td><td>Not stored by us — read on demand</td><td>N/A</td><td>No</td></tr>
+        <tr><td>Menstrual cycle data (opt-in only)</td><td>HealthKit</td><td>Periodization suggestions</td><td>Not stored by us</td><td>N/A</td><td>No</td></tr>
+        <tr><td>Camera / video (pose, bar path, OCR)</td><td>AVFoundation + Vision</td><td>On-device form analysis</td><td>In-memory by default; optional save to app sandbox</td><td>OFF by default; user-configured retention sweep if enabled</td><td>No</td></tr>
+        <tr><td>Microphone audio (opt-in only)</td><td>AVFoundation</td><td>Plate-clank rep confirmation</td><td>Processed in memory; never persisted</td><td>Discarded immediately</td><td>No</td></tr>
+        <tr><td>CoreMotion (accelerometer/gyro)</td><td>CoreMotion</td><td>Rep count, bar speed</td><td>Processed in memory</td><td>Discarded after set</td><td>No</td></tr>
+        <tr><td>NFC tag UID &amp; NDEF</td><td>CoreNFC</td><td>Machine identification</td><td>UID-to-machine mapping stored locally</td><td>Until you delete</td><td>No</td></tr>
+        <tr><td>ML machine-recognition embeddings</td><td>CoreML</td><td>"My gym" learning</td><td>Device</td><td>Until you delete</td><td>No</td></tr>
+        <tr><td>Foundation Models prompts &amp; outputs</td><td>FoundationModels (on-device)</td><td>AI coaching, NL builder, summaries</td><td>Prompts: in-memory. Outputs: local cache</td><td>Outputs until you delete</td><td>No</td></tr>
+        <tr><td>Photos (add)</td><td>PhotosKit</td><td>Save share cards / form clips you export</td><td>Your Photos library</td><td>Your control</td><td>No</td></tr>
+        <tr><td>Apple Music playback tokens</td><td>MusicKit</td><td>Auto-play playlist on lift</td><td>Device (Apple-managed)</td><td>Session</td><td>Apple only</td></tr>
+        <tr><td>Face ID / Touch ID</td><td>LocalAuthentication</td><td>Optional app lock</td><td>Biometric template never leaves Secure Enclave</td><td>N/A</td><td>No</td></tr>
+        <tr><td>Subscription receipt</td><td>StoreKit 2</td><td>Entitlement verification</td><td>Apple-managed, device-verified</td><td>Apple's retention</td><td>Apple only</td></tr>
+        <tr><td>Local notifications</td><td>UserNotifications</td><td>Rest timer, PR alerts</td><td>Device</td><td>Until dismissed</td><td>No</td></tr>
+        <tr><td>App preferences</td><td>UserDefaults / App Group</td><td>Settings, widget mirror</td><td>Device</td><td>Until you delete the app</td><td>No</td></tr>
+        <tr><td>Location</td><td>— (not requested)</td><td>Not used</td><td>Not collected</td><td>N/A</td><td>N/A</td></tr>
+        <tr><td>Contacts, Calendar, Reminders</td><td>— (not requested)</td><td>Not used</td><td>Not collected</td><td>N/A</td><td>N/A</td></tr>
+        <tr><td>IDFA / advertising identifier</td><td>— (not requested)</td><td>Not used</td><td>Not collected</td><td>N/A</td><td>N/A</td></tr>
+    </table>
+
+    <h2>5. HealthKit (Apple App Store Review Guideline 5.1.3)</h2>
+    <p>Reps integrates deeply with Apple HealthKit because HealthKit is the source of truth for your workouts. We follow Apple's HealthKit rules strictly:</p>
+    <ul>
+        <li><strong>Primary purpose is fitness.</strong> Reps' principal function is strength-training logging and on-device form analysis (5.1.3(a)).</li>
+        <li><strong>HealthKit data is never used for advertising, marketing, data mining, or similar purposes, and is never shared with third parties for those purposes</strong> (5.1.3(b)).</li>
+        <li><strong>HealthKit data is never disclosed to any third party without your explicit consent</strong>, and is never sold under any circumstance (5.1.3(c)).</li>
+        <li><strong>HealthKit data is never transmitted off your device by Reps.</strong> Reads happen on demand; writes go to Apple's secure HealthKit container on your device and — if you have iCloud Health enabled — to Apple's iCloud under Apple's infrastructure, which we cannot access.</li>
+        <li><strong>You grant permission per-data-type.</strong> Revoke access at any time in <em>iOS Settings &gt; Privacy &amp; Security &gt; Health &gt; Reps</em>. Reps continues to function; features that depend on the revoked type degrade.</li>
+    </ul>
+
+    <h3>5.1 What Reps writes to HealthKit</h3>
+    <ul>
+        <li>An <code>HKWorkout</code> of type <em>Traditional Strength Training</em> for each session.</li>
+        <li>An <code>HKWorkoutActivity</code> sub-activity for each exercise, with the following custom metadata (all keys prefixed <code>com.denvered.reps.</code> per Apple's guidelines): exercise ID, sets, machine ID, tonnage, 1RM estimate, form score (only when you analyze video), bar-path SVG, tempo values, peak HR, HR recovery 60s, velocity loss, RPE.</li>
+        <li><code>HKQuantitySeriesSample</code> heart-rate series attached to working sets (when recorded from Apple Watch).</li>
+        <li>Discrete <code>HKQuantitySample</code> records for active energy per exercise.</li>
+        <li>A custom <code>HKCategorySample</code> for per-session strength score and recovery readiness.</li>
+    </ul>
+
+    <h3>5.2 What Reps reads from HealthKit</h3>
+    <p>Only when you grant read permission: workouts, heart rate, heart-rate recovery, heart-rate variability (SDNN), resting heart rate, oxygen saturation, respiratory rate, sleeping wrist temperature, active/basal/exercise energy, Apple Exercise/Stand/Move time, VO2 Max, body mass, body-mass index, body-fat percentage, lean body mass, walking speed, walking step length, walking asymmetry, walking double-support, Apple Walking Steadiness, stair ascent/descent speed, six-minute walk distance, running power and gait metrics, sleep stages, mindful minutes, headphone audio exposure, and — with your explicit separate opt-in — menstrual cycle tracking.</p>
+
+    <h3>5.3 HIPAA</h3>
+    <p>Reps is not a Covered Entity or Business Associate under HIPAA. Data you generate in Reps is consumer health data, not Protected Health Information (PHI). Sharing with a healthcare provider is at your discretion, using your own HealthKit export.</p>
+
+    <h3>5.4 Washington My Health My Data Act, Nevada SB 370, Connecticut CTDPA consumer-health provisions</h3>
+    <p>We collect, use, store, and disclose <em>no</em> consumer health data to any infrastructure under our control. We do not geofence health facilities, do not sell or share consumer health data, and do not use it to infer additional health information about you beyond what these laws define. Your right to access, delete, and withdraw consent is satisfied through the steps in our <a href="data-deletion.html">Data Deletion page</a>.</p>
+
+    <h3>5.5 Human-subject research</h3>
+    <p>Reps is not used for human-subject research. If that ever changes, we will obtain IRB approval and notify users explicitly before enrollment.</p>
+
+    <h2>6. Sensors and device capabilities</h2>
+
+    <h3>6.1 Camera (Vision, AVFoundation)</h3>
+    <p>Reps uses the camera for on-device 2D and 3D body-pose estimation, bar-path tracking, and optical character recognition of machine labels. Video is processed frame-by-frame in memory. <strong>Saving video is OFF by default.</strong> When you explicitly enable "Save form-analysis videos" in Settings, clips are written to Reps' private app sandbox only — they are not added to Photos and are not transmitted. The iOS green camera indicator is visible whenever the camera is active.</p>
+
+    <h3>6.2 Microphone</h3>
+    <p>The microphone is strictly opt-in. It is never used by default and you are never prompted for it on launch. If you enable "Audio rep confirm," Reps listens for the sound of a barbell racking to auto-confirm reps. Audio is processed in memory and never saved, logged, or transmitted.</p>
+
+    <h3>6.3 Motion</h3>
+    <p>Reps reads accelerometer and gyroscope data via CoreMotion to count reps and estimate bar speed. Values are discarded after each set. Raw motion streams are not persisted.</p>
+
+    <h3>6.4 NFC</h3>
+    <p>Reps uses CoreNFC's <code>NFCTagReaderSession</code> and <code>NFCNDEFReaderSession</code> with the entitlement scoped to <code>TAG</code> format only. We read the UID (a short numeric identifier) and — when present — a URL or NDEF record. We do not write to tags. We do not collect personal data from tags. The mapping of a tag UID to a machine/exercise is stored on your device only.</p>
+
+    <h3>6.5 Photos (add-only)</h3>
+    <p>When you choose to export a share card or a form clip, Reps requests <em>add-only</em> permission via <code>PHPhotoLibraryAddUsageDescription</code>. Reps cannot read, browse, or list your existing photos.</p>
+
+    <h3>6.6 Face ID / Touch ID</h3>
+    <p>The optional app lock uses <code>LAContext.evaluatePolicy(.deviceOwnerAuthenticationWithBiometrics)</code>. Your biometric template never leaves Apple's Secure Enclave and is never transmitted or accessible to us.</p>
+
+    <h3>6.7 Location — not collected</h3>
+    <p>Reps does <strong>not</strong> request location permission and does not use <code>CoreLocation</code>. We do not geofence, do not derive location from IP (we have no server to observe IP), and do not log your gym address.</p>
+
+    <h3>6.8 Contacts, Calendar, Reminders — not collected</h3>
+    <p>Reps does not request access to Contacts, Calendar, or Reminders and does not integrate with EventKit.</p>
+
+    <h2>7. Foundation Models and automated decision-making</h2>
+    <p>On supported devices (iPhone 15 Pro and newer running iOS 26), Reps uses Apple's <strong>on-device</strong> Foundation Models system language model (<code>SystemLanguageModel.default</code>, <code>LanguageModelSession</code>) to generate coaching notes, weekly summaries, natural-language workout builds, and natural-language search over your local history. Prompts and outputs never leave your device. Outputs are cached locally for performance and can be cleared by deleting the app.</p>
+    <p>Under GDPR Article 22, Reps does not make decisions producing legal or similarly significant effects about you based solely on automated processing. All AI output is informational and subject to your review and correction. You can disable all AI features in Settings &gt; Intelligence.</p>
+    <p>AI-generated content can be incomplete, inaccurate, or inappropriate. It is not medical advice and must not be relied on for medical, rehabilitative, or competition-programming decisions. See our <a href="health-disclaimer.html">Health &amp; Safety Disclaimer</a>.</p>
+
+    <h2>8. Subscriptions (Reps Pro)</h2>
+    <p>Reps offers an optional paid subscription:</p>
+    <ul>
+        <li><strong>Monthly — $3.99 USD</strong>, auto-renewing.</li>
+        <li><strong>Annual — $29.00 USD</strong>, auto-renewing, includes a <strong>7-day free trial</strong> for new subscribers.</li>
+    </ul>
+    <p>Pricing is localized per Apple's price tiers. Subscriptions are managed by Apple through your Apple ID under StoreKit 2. We do not receive, process, or store your name, address, payment card, Apple ID, or billing history. The app verifies entitlement on-device using signed StoreKit transactions. Apple's retention of billing data is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>. Manage or cancel at <em>Settings &gt; [Your Name] &gt; Subscriptions</em> or at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+
+    <h2>9. Widgets, Watch, Live Activities, Dynamic Island, App Clip, Control Widget</h2>
+    <p>All these surfaces share data with the main app exclusively through the Reps App Group (<code>group.com.denvered.reps.shared</code>). They do not open their own ModelContainer and do not access HealthKit independently of your existing permissions. The App Clip logs a single set ephemerally, cannot write to HealthKit (per Apple's App Clip restrictions), and either transfers its state to the full app on install or is discarded by iOS per the App Clip lifecycle.</p>
+
+    <h2>10. Third-party services</h2>
+    <ul>
+        <li><strong>Apple (HealthKit, StoreKit, iCloud Health, MusicKit, FoundationModels, App Store, iCloud):</strong> governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+        <li><strong>Apple Music (MusicKit):</strong> if you connect a playlist, Apple handles music metadata and playback.</li>
+        <li><strong>Strava (planned v1.5, opt-in only):</strong> if you enable one-way workout push, you authorize Reps via OAuth to send the selected workout to your Strava account. Once pushed, that data is governed by Strava's own <a href="https://www.strava.com/legal/privacy">Privacy Policy</a>. You can revoke the OAuth token in your Strava settings at any time.</li>
+        <li><strong>Shopify (separate denvered.com storefront):</strong> if you buy a Reps Starter Pack (physical NFC stickers), your order is processed by Shopify under Shopify's privacy policy. The storefront is a separate system from the app.</li>
+    </ul>
+    <p>Reps contains <strong>no sub-processors</strong> under Denvered's control. Apple platform services are governed by the agreement between Apple and you, not between Apple and Denvered.</p>
+
+    <h2>11. Cookies and web beacons</h2>
+    <p>Not applicable. Reps is a native iOS app. It does not set cookies, does not use web beacons, does not use local-storage tracking, and does not embed third-party web content for tracking purposes.</p>
+
+    <h2>12. Children's privacy</h2>
+    <p>Reps is rated 4+ for content suitability but is <strong>not directed to children</strong> and is not enrolled in Apple's Kids Category. We do not knowingly collect personal information from children under 13 (COPPA) or under 16 in the EU (GDPR Art. 8). If you are a parent or guardian and believe your child has used Reps, contact <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>. We will work with you to delete any resulting on-device data, though because no data is transmitted off-device, the device owner can accomplish the same result by deleting the app.</p>
+
+    <h2>13. Your rights</h2>
+
+    <h3>13.1 GDPR / UK GDPR (EEA, UK, Switzerland)</h3>
+    <p>Lawful bases for processing under Art. 6 and, where special-category health data is involved, Art. 9(2)(a):</p>
+    <ul>
+        <li><strong>Contract (Art. 6(1)(b)):</strong> delivering subscription features you purchased.</li>
+        <li><strong>Explicit consent (Art. 6(1)(a) and Art. 9(2)(a)):</strong> HealthKit, Camera, Microphone, Motion, NFC, Photos, Notifications, Menstrual data — granted through iOS permission prompts.</li>
+        <li><strong>Legitimate interest (Art. 6(1)(f)):</strong> optional on-device app lock (FaceID) for your security.</li>
+    </ul>
+    <p>You have the right to access, rectify, erase, restrict, port, and object to processing, and to withdraw consent at any time (Arts. 15–22). Because all processing is on-device:</p>
+    <ul>
+        <li><strong>Access</strong> — data is visible in-app, in the Health app, or in a CSV export from Reps &gt; Settings &gt; Export.</li>
+        <li><strong>Rectification</strong> — edit any workout in-app or in Health.</li>
+        <li><strong>Erasure</strong> — follow our <a href="data-deletion.html">Data Deletion</a> page.</li>
+        <li><strong>Restriction / objection</strong> — disable any permission in iOS Settings; the dependent feature degrades.</li>
+        <li><strong>Portability</strong> — CSV export; HealthKit export in the Health app.</li>
+        <li><strong>Withdraw consent</strong> — revoke any iOS permission at any time.</li>
+    </ul>
+    <p>You may lodge a complaint with your national supervisory authority.</p>
+
+    <h3>13.2 California (CCPA / CPRA)</h3>
+    <p>California residents have the right to know, delete, correct, and opt out of the sale or sharing of personal information, and to limit the use of sensitive personal information. <strong>Reps does not sell or share personal information and does not use sensitive personal information for any purpose beyond providing the service you requested.</strong> Because no personal information is collected on any infrastructure we control, there is no data to deliver in response to a "right to know" request beyond what you can see on your own device. We do not discriminate against you for exercising any right. Submit requests to <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>.</p>
+
+    <h3>13.3 Other US states (VCDPA, CPA, CTDPA, UCPA, TDPSA, OCPA, MCDPA, DPDPA, Iowa, Tennessee, Indiana, NJ, NH, Minnesota, Maryland MODPA)</h3>
+    <p>If you are a resident of Virginia, Colorado, Connecticut, Utah, Texas, Oregon, Montana, Delaware, Iowa, Tennessee, Indiana, New Jersey, New Hampshire, Minnesota, or Maryland, you have rights to access, correct, delete, port, and opt out of targeted advertising, sale, and certain profiling. <strong>Reps conducts none of those activities.</strong> No "targeted advertising," no "sale," no automated profiling with legal effect. Exercise any right at <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>.</p>
+
+    <h3>13.4 Canada (PIPEDA and Quebec Law 25)</h3>
+    <p>Our privacy officer is reachable at <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>. We observe the ten fair-information principles (accountability, identifying purposes, consent, limiting collection, limiting use/disclosure/retention, accuracy, safeguards, openness, individual access, challenging compliance). Quebec residents have additional rights under Law 25, including withdrawing consent and exercising rights by electronic means.</p>
+
+    <h3>13.5 Do Not Track and Global Privacy Control</h3>
+    <p>Because we do not track users, DNT and GPC signals are honored by default and have no additional effect.</p>
+
+    <h2>14. Data retention</h2>
+    <p>Local data persists on your device until you delete individual records in-app, revoke HealthKit access, or delete the app. Optional video clips are subject to the retention sweep in Settings (default: 30 days post-analysis). We retain nothing on our side because we receive nothing.</p>
+
+    <h2>15. Security</h2>
+    <p>All on-device data is protected by iOS Data Protection (Complete Protection class) when the device is locked. HealthKit data resides in Apple's secure container. The Reps App Group container uses iOS standard file protection. Optional Face ID app lock is available. Because Reps does not operate a server, there is no server-side attack surface controlled by Denvered. In the unlikely event of a client-side security vulnerability, we will ship an update and post a notice at denvered.com within 72 hours of discovery where we are able to do so.</p>
+
+    <h2>16. International data transfers</h2>
+    <p>Not applicable to data under Denvered's control — no personal data leaves your device under our direction, so there is no international transfer to assess under GDPR Chapter V or Schrems II. If you opt in to Strava push, that is a user-directed transfer governed by Strava's own terms and transfer mechanisms.</p>
+
+    <h2>17. Apple Privacy Nutrition Label</h2>
+    <p>Our App Store privacy disclosure reflects the following:</p>
+    <ul>
+        <li><strong>Data Used to Track You:</strong> None.</li>
+        <li><strong>Data Linked to You:</strong> None.</li>
+        <li><strong>Data Not Linked to You:</strong> Health &amp; Fitness (on-device only, App Functionality purpose, not linked to identity, not used for tracking).</li>
+        <li>All other data categories: Not Collected.</li>
+    </ul>
+    <p>Our Privacy Manifest (<code>PrivacyInfo.xcprivacy</code>) declares <code>NSPrivacyTracking = false</code>, an empty <code>NSPrivacyTrackingDomains</code>, and required-reason API usages for UserDefaults (CA92.1), FileTimestamp (C617.1), DiskSpace (E174.1), and SystemBootTime (35F9.1).</p>
+
+    <h2>18. Accessibility</h2>
+    <p>Reps supports VoiceOver, Dynamic Type up to AX5, Reduce Motion, Reduce Transparency, Increase Contrast, and Smart Invert. We target EN 301 549 / WCAG 2.1 AA conformance. Report accessibility issues to <a href="mailto:support@denvered.com">support@denvered.com</a>.</p>
+
+    <h2>19. Changes to this policy</h2>
+    <p>We may update this policy to reflect changes in the app or in applicable law. Material changes will be surfaced in-app before taking effect, and the "Last updated" date above will change. EU/UK users will receive an affirmative re-consent prompt for material adverse changes where required.</p>
+
+    <h2>20. Contact</h2>
+    <ul>
+        <li>Privacy, data-subject requests, breach notifications: <a href="mailto:privacy@denvered.com">privacy@denvered.com</a></li>
+        <li>Legal, DMCA, sanctions, export: <a href="mailto:legal@denvered.com">legal@denvered.com</a></li>
+        <li>General support: <a href="mailto:support@denvered.com">support@denvered.com</a></li>
+        <li>Everything else: <a href="mailto:info@denvered.com">info@denvered.com</a></li>
+    </ul>
+
+    <p class="back"><a href="index.html">← Back to Reps</a></p>
+</body>
+</html>

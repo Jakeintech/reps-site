@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reps — Support</title>
+    <meta name="description" content="Support and frequently asked questions for Reps.">
+    <style>
+        :root { color-scheme: light dark; }
+        body { font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #1d1d1f; line-height: 1.6; }
+        @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } .faq { background: #111 !important; } a { color: #ff5050 !important; } }
+        h1 { font-size: 28px; margin-bottom: 8px; letter-spacing: -0.3px; }
+        h2 { font-size: 20px; margin-top: 32px; }
+        .subtitle { color: #86868b; margin-bottom: 32px; }
+        .faq { background: #f5f5f7; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
+        .faq h3 { margin-top: 0; font-size: 17px; }
+        .faq p { margin-bottom: 0; }
+        a { color: #E03030; }
+        .contact { margin-top: 40px; padding: 24px; border: 1px solid #E03030; border-radius: 12px; text-align: center; }
+        .back { margin-top: 48px; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>Reps Support</h1>
+    <p class="subtitle">Help, frequently asked questions, and how to reach us.</p>
+
+    <h2>Getting started</h2>
+
+    <div class="faq">
+        <h3>How do I start a workout?</h3>
+        <p>Open Reps and tap <strong>Start Workout</strong>, or tap your iPhone to any gym machine's NFC chip. If the chip is unknown, Reps asks you once to identify it — every future tap resolves instantly.</p>
+    </div>
+
+    <div class="faq">
+        <h3>Do I need an account?</h3>
+        <p>No. Reps has no accounts and no servers. Everything stays on your device. HealthKit provides continuity across your iPhone, Apple Watch, and other devices via iCloud Health — that's Apple's infrastructure, not ours.</p>
+    </div>
+
+    <div class="faq">
+        <h3>Which devices are supported?</h3>
+        <p>iPhone XS or newer running iOS 18+ for full logging, NFC, HealthKit, widgets, and Watch. iPhone 12 and newer add 2D pose, bar path, tempo, and Live Activities. iPhone 15 Pro and newer running iOS 26 add 3D pose analysis and Foundation Models coaching. Apple Watch Series 6+ running watchOS 11+.</p>
+    </div>
+
+    <h2>NFC tap-to-log</h2>
+
+    <div class="faq">
+        <h3>Does this work with my gym's machines?</h3>
+        <p>Most commercial gym equipment — Technogym, Life Fitness, EGYM, and others — already ships with passive NFC chips. Reps reads the chip's UID and maps it to a machine or exercise after your first tap. No writing to the chip, no changes to the equipment.</p>
+    </div>
+
+    <div class="faq">
+        <h3>What about my home rack?</h3>
+        <p>The Reps Starter Pack includes 20 pre-programmed NFC stickers. Or program your own using the in-app "Program sticker" tool in Settings.</p>
+    </div>
+
+    <h2>Form analysis</h2>
+
+    <div class="faq">
+        <h3>Is my video uploaded anywhere?</h3>
+        <p>No. Video capture, pose analysis, bar-path tracking, and coaching notes happen entirely on your device. By default, video is not saved — only the extracted metrics are kept. You can opt in to saving the video to the app's private sandbox in Settings.</p>
+    </div>
+
+    <div class="faq">
+        <h3>Why is form analysis not available on my phone?</h3>
+        <p>3D pose analysis requires an iPhone 15 Pro or newer. 2D pose and bar path work on iPhone 12 and newer. Older devices still get motion-based rep counting and numeric feedback.</p>
+    </div>
+
+    <h2>HealthKit</h2>
+
+    <div class="faq">
+        <h3>What does Reps write to Health?</h3>
+        <p>Each workout is saved as an <strong>HKWorkout</strong> of type Traditional Strength Training. Each exercise within the workout is saved as an <strong>HKWorkoutActivity</strong> sub-activity with custom metadata (sets, reps, weight, tempo, RPE, 1RM estimate, form score if analyzed). Heart rate series and energy burned during sets are attached.</p>
+    </div>
+
+    <div class="faq">
+        <h3>What does Reps read from Health?</h3>
+        <p>Workouts, heart rate, HRV, mobility/gait metrics (walking speed, asymmetry, stair speed), sleep stages, body metrics, and — only with your explicit opt-in — menstrual cycle data for periodization suggestions. All processing happens on your device.</p>
+    </div>
+
+    <div class="faq">
+        <h3>How do I revoke health access?</h3>
+        <p>iOS Settings &gt; Privacy &amp; Security &gt; Health &gt; Reps. Toggle off any data type. Reps continues to work; features that depend on that data type will degrade gracefully.</p>
+    </div>
+
+    <h2>Subscription</h2>
+
+    <div class="faq">
+        <h3>What does the free tier include?</h3>
+        <p>Unlimited workouts, routines, history, custom exercises, plate calculator, rest timer, 1RM estimator, CSV export, HealthKit read/write, Apple Watch app, widgets, NFC tap-to-log, Live Activities, and share cards. The notebook is free.</p>
+    </div>
+
+    <div class="faq">
+        <h3>What does Reps Pro unlock?</h3>
+        <p>On-device Foundation Models coaching notes, natural-language workout builder, full video form analysis with bar-path overlay, machine OCR, Mobility × Strength correlation, and natural-language search over your history. The coach is Pro.</p>
+    </div>
+
+    <div class="faq">
+        <h3>How do I cancel?</h3>
+        <p>Settings &gt; [Your Name] &gt; Subscriptions on your iPhone, or open Reps and tap <strong>Manage Subscription</strong>. Cancellation takes effect at the end of the current billing period.</p>
+    </div>
+
+    <div class="faq">
+        <h3>How do I request a refund?</h3>
+        <p>All purchases are processed by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+    </div>
+
+    <h2>Data &amp; deletion</h2>
+
+    <div class="faq">
+        <h3>How do I delete my data?</h3>
+        <p>Delete the app. All local data is removed. Data written to HealthKit is yours to manage in the Health app: Browse &gt; Workouts &gt; tap a workout &gt; Delete, or use "Delete All Data from Reps" in Privacy &amp; Security &gt; Health &gt; Reps. See the <a href="data-deletion.html">Data Deletion page</a>.</p>
+    </div>
+
+    <h2>Contact</h2>
+
+    <div class="contact">
+        <p>Need help or have a question?<br>
+        <a href="mailto:support@denvered.com">support@denvered.com</a></p>
+        <p style="font-size: 14px; color: #86868b; margin-bottom: 0;">We respond within 2 business days.</p>
+    </div>
+
+    <p class="back"><a href="index.html">← Back to Reps</a></p>
+</body>
+</html>
