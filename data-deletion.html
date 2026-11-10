@@ -1,84 +1,79 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reps — Data Deletion</title>
-    <meta name="description" content="How to delete your Reps data — no account required.">
-    <style>
-        :root { color-scheme: light dark; }
-        body { font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #1d1d1f; line-height: 1.6; }
-        @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } a { color: #ff5050 !important; } code { background: #222 !important; color: #f5f5f7 !important; } }
-        h1 { font-size: 28px; margin-bottom: 8px; letter-spacing: -0.3px; }
-        h2 { font-size: 20px; margin-top: 32px; }
-        .subtitle { color: #86868b; margin-bottom: 32px; }
-        a { color: #E03030; }
-        ol li { margin-bottom: 8px; }
-        code { background: #f5f5f7; padding: 2px 6px; border-radius: 4px; font-size: 14px; }
-        .callout { background: #f5f5f7; border-left: 4px solid #E03030; padding: 16px 20px; border-radius: 8px; margin: 24px 0; }
-        .back { margin-top: 48px; text-align: center; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Delete Your Data · Reps: Gym Workout Tracker</title>
+<meta name="description" content="Reps has no account or server. Here's how to delete what the app keeps on your iPhone and the workouts it saved to Apple Health.">
+<meta name="apple-itunes-app" content="app-id=6762486117">
+<link rel="canonical" href="https://jakeintech.github.io/reps-site/data-deletion.html">
+<meta name="theme-color" content="#F8F4EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17110F" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:title" content="Delete your Reps data">
+<meta property="og:image" content="https://jakeintech.github.io/reps-site/assets/og.png">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Data Deletion</h1>
-    <p class="subtitle">Last updated: April 18, 2026</p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-180.png" alt="" width="32" height="32">Reps</a>
+    <nav aria-label="Main">
+      <a href="privacy-policy.html">Privacy</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="callout">
-        <p style="margin: 0;"><strong>Reps has no account and no server.</strong> There is no remote user record to delete because none exists. All your data is on your device, in HealthKit, or in Apple's private iCloud Health store — which only you and Apple can access.</p>
+<main class="doc">
+  <div class="wrap">
+    <h1>Delete Your Data</h1>
+    <p class="meta">Last updated November 10, 2026</p>
+    <div class="summary">
+      <p>Reps has no account and no server, so there's no record about you for us to delete. Everything lives on your iPhone and Apple Watch, or in Apple Health. You can remove all of it yourself in a minute.</p>
     </div>
 
-    <h2>1. Delete app-local data</h2>
-    <p>To remove every piece of data Reps stores on your device — exercise library, routines, cached coaching notes, ML embeddings for machine recognition, saved videos, and app preferences — delete the app:</p>
+    <h2>1. Delete what the app keeps</h2>
+    <p>Routines, custom exercises, sticker setups, saved Form check clips, cached recaps and settings are removed when you delete the app:</p>
     <ol>
-        <li>On your Home Screen, long-press the Reps icon.</li>
-        <li>Tap <strong>Remove App</strong>.</li>
-        <li>Tap <strong>Delete App</strong> to confirm.</li>
+      <li>Touch and hold the Reps icon on your Home Screen.</li>
+      <li>Tap Remove App, then Delete App.</li>
     </ol>
-    <p>All local data in the app's sandbox and App Group container is removed by iOS immediately. We cannot recover it and neither can Apple.</p>
+    <p>Deleting the iPhone app also removes the Apple Watch app.</p>
 
-    <h2>2. Delete Health data written by Reps</h2>
-    <p>Workouts Reps wrote to HealthKit belong to you, not to us. To delete them:</p>
+    <h2>2. Delete workouts saved to Apple Health</h2>
+    <p>Workouts Reps saved to Apple Health belong to you and stay there after you delete Reps. To delete some of them, open the Health app, go to Browse, Activity, Workouts, and swipe to delete a workout.</p>
+    <p>To delete every workout Reps saved and stop its access:</p>
     <ol>
-        <li>Open the <strong>Health</strong> app.</li>
-        <li>Go to <strong>Browse &gt; Workouts</strong>.</li>
-        <li>Tap a workout, then <strong>Edit &gt; Delete Workout</strong>, or swipe to delete.</li>
-    </ol>
-    <p>To revoke Reps' access to HealthKit entirely:</p>
-    <ol>
-        <li><strong>Settings &gt; Privacy &amp; Security &gt; Health &gt; Reps</strong>.</li>
-        <li>Toggle off each category, or tap <strong>Turn Off All</strong>.</li>
-        <li>To also remove all data Reps previously wrote, tap <strong>Delete All Data from Reps</strong>.</li>
+      <li>Open the Settings app, then Privacy &amp; Security, Health, Reps.</li>
+      <li>Tap Delete All Data from "Reps".</li>
+      <li>Turn off any permissions you no longer want to give.</li>
     </ol>
 
-    <h2>3. Delete subscription records</h2>
-    <p>Your subscription is managed by Apple through your Apple ID, not by us. We never receive your payment information, name, or email. To cancel or view subscription history:</p>
-    <ol>
-        <li><strong>Settings &gt; [Your Name] &gt; Subscriptions</strong>.</li>
-        <li>Tap <strong>Reps</strong>, then <strong>Cancel Subscription</strong>.</li>
-    </ol>
-    <p>Past transactions are retained by Apple per Apple's policies. See <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    <h2>3. Subscription records</h2>
+    <p>Apple handles Reps Pro purchases. We never receive your name, email or payment details. To cancel, open the Settings app, tap your name, then Subscriptions, then Reps. Apple keeps its own purchase records under <a href="https://www.apple.com/legal/privacy/">Apple's privacy policy</a>.</p>
 
-    <h2>4. What we cannot delete (because we never had it)</h2>
-    <ul>
-        <li>We do not operate user accounts.</li>
-        <li>We do not store your name, email, phone, Apple ID, device identifier, IP address, or location on any server.</li>
-        <li>We do not run analytics, attribution, advertising, or crash-reporting services.</li>
-        <li>We do not transmit your training data, videos, audio, or HealthKit data anywhere.</li>
-    </ul>
+    <h2>4. Keep a copy first</h2>
+    <p>Before you delete anything, you can save your history: in Reps Settings, choose Export all sets to CSV.</p>
 
-    <h2>5. GDPR / CCPA / CPRA / VCDPA rights</h2>
-    <p>You have the right to access, correct, port, restrict, and delete your personal data under applicable privacy laws. Because we do not collect personal data on any server, these rights are fully satisfied by the steps above:</p>
-    <ul>
-        <li><strong>Access</strong> — all your data is visible in-app or in the Health app.</li>
-        <li><strong>Portability</strong> — export your workout history as CSV from <strong>Reps &gt; Settings &gt; Export</strong>.</li>
-        <li><strong>Rectification</strong> — edit any workout in-app or in the Health app.</li>
-        <li><strong>Erasure</strong> — follow steps 1 and 2 above.</li>
-        <li><strong>Restriction / objection</strong> — disable any permission in iOS Settings; the related feature degrades, the rest of the app continues.</li>
-    </ul>
+    <h2>5. Questions</h2>
+    <p>Email <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>. We reply within 30 days, and usually much sooner.</p>
+  </div>
+</main>
 
-    <h2>6. Questions</h2>
-    <p>For privacy questions, email <a href="mailto:privacy@denvered.com">privacy@denvered.com</a>. We will respond within 30 days (EU/UK/California statutory window) or sooner.</p>
-
-    <p class="back"><a href="index.html">← Back to Reps</a></p>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Use</a>
+      <a href="health-disclaimer.html">Health Disclaimer</a>
+      <a href="data-deletion.html">Delete Your Data</a>
+    </nav>
+    <p>© 2026 Denvered</p>
+  </div>
+</footer>
 </body>
 </html>

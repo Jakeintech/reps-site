@@ -1,63 +1,226 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reps — Strength Training, Entirely On Your iPhone</title>
-    <meta name="description" content="The strength-training app where your iPhone sees your form, an NFC tap logs your set, and nothing ever leaves your device. $3.99/mo or $29/yr.">
-    <style>
-        :root { color-scheme: light dark; }
-        body { font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; max-width: 680px; margin: 60px auto; padding: 0 20px; color: #1d1d1f; line-height: 1.7; text-align: center; }
-        @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } .stat-number { color: #ff5050 !important; } a { color: #ff5050 !important; } .links { border-color: #333 !important; } }
-        h1 { font-size: 36px; margin-bottom: 4px; letter-spacing: -0.5px; }
-        .tagline { font-size: 20px; color: #86868b; margin-bottom: 40px; }
-        .description { text-align: left; font-size: 17px; margin-bottom: 40px; }
-        .stats { display: flex; justify-content: center; gap: 32px; margin: 32px 0; flex-wrap: wrap; }
-        .stat { text-align: center; }
-        .stat-number { font-size: 28px; font-weight: 700; color: #E03030; }
-        .stat-label { font-size: 13px; color: #86868b; text-transform: uppercase; letter-spacing: 0.5px; }
-        .links { margin-top: 40px; padding-top: 24px; border-top: 1px solid #e5e5e7; }
-        .links a { display: inline-block; margin: 0 14px; color: #E03030; text-decoration: none; font-size: 15px; font-weight: 500; }
-        .links a:hover { text-decoration: underline; }
-        .footer { margin-top: 48px; color: #86868b; font-size: 13px; }
-        .price { font-size: 15px; color: #86868b; margin-top: 8px; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Reps: Gym Workout Tracker for iPhone and Apple Watch</title>
+<meta name="description" content="Reps is a gym workout tracker that opens every lift on the weight you used last time, so logging a set takes one tap. Built-in programs, Apple Watch app, no account.">
+<meta name="apple-itunes-app" content="app-id=6762486117">
+<link rel="canonical" href="https://jakeintech.github.io/reps-site/">
+<meta name="theme-color" content="#F8F4EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17110F" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Reps">
+<meta property="og:title" content="Reps: log every lift in one tap">
+<meta property="og:description" content="A gym workout tracker for iPhone and Apple Watch. Every lift opens on last time's weight. No account, no ads.">
+<meta property="og:url" content="https://jakeintech.github.io/reps-site/">
+<meta property="og:image" content="https://jakeintech.github.io/reps-site/assets/og.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Reps on iPhone showing Barbell Squat at 250 pounds with a Log Set button.">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Reps: log every lift in one tap">
+<meta name="twitter:description" content="A gym workout tracker for iPhone and Apple Watch. Every lift opens on last time's weight. No account, no ads.">
+<meta name="twitter:image" content="https://jakeintech.github.io/reps-site/assets/og.png">
+<link rel="stylesheet" href="style.css">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"MobileApplication","name":"Reps: Gym Workout Tracker","operatingSystem":"iOS","applicationCategory":"HealthApplication","offers":{"@type":"Offer","price":"0","priceCurrency":"USD"},"url":"https://apps.apple.com/app/id6762486117","publisher":{"@type":"Organization","name":"Denvered"}}
+</script>
 </head>
 <body>
-    <h1>Reps</h1>
-    <p class="tagline">Strength training, entirely on your iPhone.</p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-180.png" alt="" width="32" height="32">Reps</a>
+    <nav aria-label="Main">
+      <a class="optional" href="#features">Features</a>
+      <a class="optional" href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+      <a href="support.html">Support</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="stats">
-        <div class="stat">
-            <div class="stat-number">0</div>
-            <div class="stat-label">Accounts</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">0</div>
-            <div class="stat-label">Servers</div>
-        </div>
-        <div class="stat">
-            <div class="stat-number">0</div>
-            <div class="stat-label">Trackers</div>
-        </div>
+<main>
+  <section class="hero">
+    <div class="wrap">
+      <div>
+        <p class="kicker">Gym workout tracker for iPhone and Apple Watch</p>
+        <h1>Log every lift in one tap.</h1>
+        <p class="lede">Reps opens each exercise on the weight and reps you did last time. Tap once and get back to the bar. No account, no ads.</p>
+        <a class="appstore" href="https://apps.apple.com/app/id6762486117" aria-label="Download Reps on the App Store">
+          <span><small>Download on the</small><strong>App Store</strong></span>
+        </a>
+        <p class="fine">Free to download. Logging is free and unlimited. Reps Pro is optional.</p>
+      </div>
+      <div class="phone"><img src="assets/shot-set.webp" width="600" height="1304" alt="Reps on iPhone: Barbell Squat, set 1 of 3, 250 pounds for 5 reps, with a large Log Set button." fetchpriority="high"></div>
     </div>
+  </section>
 
-    <div class="description">
-        <p>Reps is the strength-training app where your iPhone sees your form, an NFC tap logs your set, and nothing ever leaves your device.</p>
-        <p>HealthKit is the source of truth for every workout. On-device computer vision analyzes your lift. A tap of your phone to any gym machine's existing NFC chip — Technogym, Life Fitness, EGYM — logs the set instantly. Apple Watch companion, widgets, Dynamic Island, Live Activities, and App Clip included.</p>
-        <p>No account. No server. No analytics SDKs. No ads. Ever.</p>
+  <section class="promises" aria-label="At a glance">
+    <ul class="wrap">
+      <li><strong>One tap per set</strong>Last time's weight, ready</li>
+      <li><strong>10 programs built in</strong>Or build your own</li>
+      <li><strong>Apple Watch app</strong>Included, free</li>
+      <li><strong>No account</strong>Workouts saved to Apple Health</li>
+    </ul>
+  </section>
+
+  <div id="features">
+    <section class="benefit">
+      <div class="wrap">
+        <div class="copy">
+          <p class="kicker">Log a set in seconds</p>
+          <h2>Your last weight, ready.</h2>
+          <p>Every lift opens on the weight and reps you did last time. If nothing changed, tap Log Set. If it did, drag the big number and tap.</p>
+          <ul>
+            <li>Swap or skip a lift mid-workout in two taps</li>
+            <li>Warm-up sets worked out to the plates you load</li>
+            <li>Clear suggestions for when to add weight</li>
+          </ul>
+        </div>
+        <div class="phone"><img src="assets/shot-pr.webp" width="600" height="1304" loading="lazy" alt="Barbell Squat set 3 of 5 at 275 pounds, with a gold ring marking a new personal record."></div>
+      </div>
+    </section>
+
+    <section class="benefit flip">
+      <div class="wrap">
+        <div class="copy">
+          <p class="kicker">Run your program</p>
+          <h2>PPL, 5/3/1, GZCLP. Built in.</h2>
+          <p>Ten programs ship with Reps, from bodyweight, dumbbell and machine starters to Upper/Lower, Full Body, Push/Pull/Legs, GZCLP, 5/3/1 Lite and nSuns Lite.</p>
+          <ul>
+            <li>Build your own routines from more than 850 exercises, each with steps and pictures</li>
+            <li>Supersets, RPE and notes when you want them</li>
+          </ul>
+        </div>
+        <div class="phone"><img src="assets/shot-programs.webp" width="600" height="1304" loading="lazy" alt="The Train tab listing routines: Push, Pull, Legs, Squat and Bench, Deadlift and Press, Heavy Squat and Heavy Press, each with a Start button."></div>
+      </div>
+    </section>
+
+    <section class="benefit">
+      <div class="wrap">
+        <div class="copy">
+          <p class="kicker">Rest</p>
+          <h2>Rest runs itself.</h2>
+          <p>Log a set and the rest timer starts on its own. It shows on your Lock Screen and in the Dynamic Island, and tells you what's next, so you don't have to open the app.</p>
+        </div>
+        <div class="phone"><img src="assets/shot-rest.webp" width="600" height="1304" loading="lazy" alt="Rest timer at 2 minutes 57 seconds inside a red ring. Next: set 2, Barbell Squat."></div>
+      </div>
+    </section>
+
+    <section class="benefit flip">
+      <div class="wrap">
+        <div class="copy">
+          <p class="kicker">Progress</p>
+          <h2>Every session, stamped.</h2>
+          <p>The Training Ledger marks every day you trained on a calendar. Days you set a record get a gold ring, and records turn gold the moment you set them.</p>
+          <ul>
+            <li>Estimated one-rep max, streaks and weekly totals</li>
+            <li>Finished workouts can go to your calendar, if you turn it on</li>
+          </ul>
+        </div>
+        <div class="phone"><img src="assets/shot-ledger.webp" width="600" height="1304" loading="lazy" alt="The Log tab showing October 2026 with 18 training days stamped in red and two record days ringed in gold."></div>
+      </div>
+    </section>
+
+    <section class="benefit">
+      <div class="wrap">
+        <div class="copy">
+          <p class="kicker">Apple Watch</p>
+          <h2>Log from your wrist.</h2>
+          <p>Start on iPhone and keep going on Apple Watch. It's one workout, never doubled. Or leave the phone in your bag and log from the watch on its own, with your heart rate live.</p>
+          <ul>
+            <li>Turn the crown to set the weight, tap to log</li>
+            <li>Double-tap to log a set on supported Apple Watch models</li>
+          </ul>
+        </div>
+        <div class="watch"><img src="assets/shot-watch.webp" width="416" height="496" loading="lazy" alt="Reps on Apple Watch: Barbell Squat, 125 kilograms, set 3 of 5, heart rate 128."></div>
+      </div>
+    </section>
+  </div>
+
+  <section class="extras" aria-labelledby="extras-title">
+    <div class="wrap">
+      <h2 id="extras-title">Quick to reach, wherever you are</h2>
+      <div class="grid">
+        <div class="tile"><h3>Tap a sticker</h3><p>Put a sticker on your rack, bench or favorite machine and set it up once. Tap your iPhone on it and that exercise opens, ready to log.</p></div>
+        <div class="tile"><h3>Siri and the Action Button</h3><p>Say "Start Push in Reps", or put a routine on the Action Button.</p></div>
+        <div class="tile"><h3>Widgets and Control Center</h3><p>See your next set and your streak on the Lock Screen, a rest timer in StandBy, and start a workout from Control Center.</p></div>
+        <div class="tile"><h3>Bring your history</h3><p>Switching from Strong or Hevy? Import your past workouts in one step.</p></div>
+        <div class="tile"><h3>Yours, and only yours</h3><p>No account, no ads, nothing sent to us. Your workouts live in Apple Health, so your history outlasts any app.</p></div>
+        <div class="tile"><h3>Export anytime</h3><p>Take everything with you as a spreadsheet file whenever you want.</p></div>
+      </div>
     </div>
+  </section>
 
-    <p class="price"><strong>$3.99/month</strong> or <strong>$29/year</strong> · 7-day free trial on annual</p>
-
-    <div class="links">
-        <a href="privacy-policy.html">Privacy Policy</a>
-        <a href="terms-of-service.html">Terms of Service</a>
-        <a href="health-disclaimer.html">Health Disclaimer</a>
-        <a href="support.html">Support</a>
-        <a href="data-deletion.html">Data Deletion</a>
+  <section class="pricing" id="pricing" aria-labelledby="pricing-title">
+    <div class="wrap">
+      <h2 id="pricing-title">Free to log. Pro when you want more.</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Reps</h3>
+          <p class="sub">Free</p>
+          <ul>
+            <li>Unlimited workouts, routines and history</li>
+            <li>All ten built-in programs</li>
+            <li>Apple Watch app, widgets and the rest timer</li>
+            <li>Stickers, Siri and Shortcuts</li>
+            <li>Import and export</li>
+          </ul>
+        </div>
+        <div class="plan pro">
+          <h3>Reps Pro</h3>
+          <p class="sub">Monthly, yearly with a 7-day free trial, or once for life</p>
+          <ul>
+            <li><strong>Weekly recap:</strong> what you lifted, what went up and what to watch</li>
+            <li><strong>Strength for life:</strong> see your lifting show up in walking speed, stairs and balance</li>
+            <li><strong>Build by asking:</strong> "Push day, 45 min, no deadlifts" becomes a routine</li>
+            <li><strong>Scan any machine:</strong> point the camera at the label, get the exercise</li>
+            <li><strong>Form check (beta):</strong> film a set to see bar path, speed and left-right balance</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Prices are shown in the App Store in your currency. Subscriptions renew automatically unless canceled at least 24 hours before the end of the period. Build by asking needs an iPhone with Apple Intelligence.</p>
     </div>
+  </section>
 
-    <p class="footer">&copy; 2026 Denvered. All rights reserved.</p>
+  <section class="faq" id="faq" aria-labelledby="faq-title">
+    <div class="wrap">
+      <h2 id="faq-title">Questions</h2>
+      <details><summary>Do I need an account?</summary><p>No. There's nothing to sign up for. Open Reps and start a workout.</p></details>
+      <details><summary>Is Reps free?</summary><p>Yes. Logging, routines, programs, history, the Apple Watch app and widgets are free with no limits. Reps Pro adds a weekly recap, strength-for-life trends, building routines by asking, machine scanning and form check.</p></details>
+      <details><summary>Where are my workouts saved?</summary><p>In Apple Health on your iPhone. Your history stays in your Health app even if you delete Reps. We don't run servers and never receive your workouts. <a href="privacy-policy.html">Read the privacy policy</a>.</p></details>
+      <details><summary>Does it work with Apple Watch?</summary><p>Yes. The watch app is included. Start on iPhone and continue on the watch, or log from the watch on its own.</p></details>
+      <details><summary>Can I bring my history from another app?</summary><p>Yes. Export a file from Strong or Hevy and import it in Reps Settings. Your past workouts appear in your history and in Apple Health.</p></details>
+      <details><summary>What are the stickers?</summary><p>Blank tap stickers you buy online and set up once in Reps Settings. Put one on your rack or a machine, and tapping your iPhone on it opens that exercise. They're optional: every lift opens where you left off either way.</p></details>
+      <details><summary>Which devices does it run on?</summary><p>iPhone with iOS 18 or later, and Apple Watch with watchOS 11 or later. Reps isn't available for iPad or Mac.</p></details>
+      <details><summary>How do I cancel Reps Pro?</summary><p>In the Settings app, tap your name, then Subscriptions, then Reps. You can also open Reps Settings and tap Manage Subscription. <a href="support.html#subscription">More on subscriptions</a>.</p></details>
+    </div>
+  </section>
+
+  <section class="closing">
+    <div class="wrap">
+      <h2>Your next set is one tap away.</h2>
+      <a class="appstore" href="https://apps.apple.com/app/id6762486117" aria-label="Download Reps on the App Store">
+        <span><small>Download on the</small><strong>App Store</strong></span>
+      </a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Use</a>
+      <a href="health-disclaimer.html">Health Disclaimer</a>
+      <a href="data-deletion.html">Delete Your Data</a>
+    </nav>
+    <p>© 2026 Denvered. Apple, Apple Watch and App Store are trademarks of Apple Inc.</p>
+  </div>
+</footer>
 </body>
 </html>

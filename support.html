@@ -1,124 +1,98 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Reps — Support</title>
-    <meta name="description" content="Support and frequently asked questions for Reps.">
-    <style>
-        :root { color-scheme: light dark; }
-        body { font-family: -apple-system, system-ui, "SF Pro Text", sans-serif; max-width: 680px; margin: 40px auto; padding: 0 20px; color: #1d1d1f; line-height: 1.6; }
-        @media (prefers-color-scheme: dark) { body { background: #000; color: #f5f5f7; } .faq { background: #111 !important; } a { color: #ff5050 !important; } }
-        h1 { font-size: 28px; margin-bottom: 8px; letter-spacing: -0.3px; }
-        h2 { font-size: 20px; margin-top: 32px; }
-        .subtitle { color: #86868b; margin-bottom: 32px; }
-        .faq { background: #f5f5f7; border-radius: 12px; padding: 20px; margin-bottom: 16px; }
-        .faq h3 { margin-top: 0; font-size: 17px; }
-        .faq p { margin-bottom: 0; }
-        a { color: #E03030; }
-        .contact { margin-top: 40px; padding: 24px; border: 1px solid #E03030; border-radius: 12px; text-align: center; }
-        .back { margin-top: 48px; text-align: center; }
-    </style>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Support · Reps: Gym Workout Tracker</title>
+<meta name="description" content="Get help with Reps: starting a workout, stickers, Apple Watch, importing your history, Reps Pro, and deleting your data. Email support@denvered.com.">
+<meta name="apple-itunes-app" content="app-id=6762486117">
+<link rel="canonical" href="https://jakeintech.github.io/reps-site/support.html">
+<meta name="theme-color" content="#F8F4EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#17110F" media="(prefers-color-scheme: dark)">
+<link rel="icon" type="image/png" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="assets/icon-180.png">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Reps">
+<meta property="og:title" content="Reps Support">
+<meta property="og:description" content="Answers to common questions, and how to reach us.">
+<meta property="og:url" content="https://jakeintech.github.io/reps-site/support.html">
+<meta property="og:image" content="https://jakeintech.github.io/reps-site/assets/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Reps Support</h1>
-    <p class="subtitle">Help, frequently asked questions, and how to reach us.</p>
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="./"><img src="assets/icon-180.png" alt="" width="32" height="32">Reps</a>
+    <nav aria-label="Main">
+      <a class="optional" href="./#features">Features</a>
+      <a href="privacy-policy.html">Privacy</a>
+    </nav>
+  </div>
+</header>
 
-    <h2>Getting started</h2>
+<main class="doc">
+  <div class="wrap">
+    <h1>Support</h1>
+    <p class="meta">Help with Reps for iPhone and Apple Watch.</p>
 
-    <div class="faq">
-        <h3>How do I start a workout?</h3>
-        <p>Open Reps and tap <strong>Start Workout</strong>, or tap your iPhone to any gym machine's NFC chip. If the chip is unknown, Reps asks you once to identify it — every future tap resolves instantly.</p>
+    <div class="contact-card">
+      <p><strong>Email us at <a href="mailto:support@denvered.com?subject=Reps%20support">support@denvered.com</a></strong></p>
+      <p>We reply within 2 business days. It helps to include your iPhone model, your iOS version and what you were doing when the problem happened.</p>
     </div>
 
-    <div class="faq">
-        <h3>Do I need an account?</h3>
-        <p>No. Reps has no accounts and no servers. Everything stays on your device. HealthKit provides continuity across your iPhone, Apple Watch, and other devices via iCloud Health — that's Apple's infrastructure, not ours.</p>
-    </div>
+    <h2 id="start">Getting started</h2>
+    <details><summary>How do I start a workout?</summary><p>On the Train tab, tap Start next to any routine. Each lift opens on the weight and reps you did last time. Tap Log Set, or drag the big number to change the weight first.</p></details>
+    <details><summary>Do I need an account?</summary><p>No. Reps has no sign-up. Open it and start lifting.</p></details>
+    <details><summary>Should I allow Apple Health?</summary><p>Yes, if you want your workouts kept. Reps saves every finished workout to Apple Health, and reads your history from there. You can still log without it, and you can change access any time in Settings, Privacy &amp; Security, Health, Reps.</p></details>
+    <details><summary>How do I follow a program?</summary><p>Reps includes ten programs, from beginner starters to Push/Pull/Legs, GZCLP, 5/3/1 Lite and nSuns Lite. Add one from the Train tab, then start its next day. You can also build your own routine from the exercise list.</p></details>
 
-    <div class="faq">
-        <h3>Which devices are supported?</h3>
-        <p>iPhone XS or newer running iOS 18+ for full logging, NFC, HealthKit, widgets, and Watch. iPhone 12 and newer add 2D pose, bar path, tempo, and Live Activities. iPhone 15 Pro and newer running iOS 26 add 3D pose analysis and Foundation Models coaching. Apple Watch Series 6+ running watchOS 11+.</p>
-    </div>
+    <h2 id="stickers">Stickers</h2>
+    <details><summary>What stickers work?</summary><p>Blank tap stickers sold online, often listed as NTAG213 or NTAG215. You need an iPhone that can read them (iPhone XS or later).</p></details>
+    <details><summary>How do I set one up?</summary><p>In Reps Settings, open Stickers, tap Program an NFC sticker, and pick its exercise. Put it on your rack, bench or machine. Next time, hold the top of your iPhone near it and that exercise opens.</p></details>
+    <details><summary>A sticker opens the wrong exercise or nothing happens</summary><p>Hold the top edge of your iPhone flat against the sticker for a second. If it still opens the wrong lift, set it up again from Reps Settings. Metal surfaces can block some stickers; a sticker made for metal, or a spot on plastic or a label, works better.</p></details>
 
-    <h2>NFC tap-to-log</h2>
+    <h2 id="watch">Apple Watch</h2>
+    <details><summary>How do I get Reps on my watch?</summary><p>The watch app installs with the iPhone app. If it doesn't appear, open the Watch app on your iPhone, scroll to Available Apps and tap Install next to Reps.</p></details>
+    <details><summary>Can I start on my phone and finish on my watch?</summary><p>Yes. Start a workout on iPhone and the watch picks it up. It's saved as one workout, not two.</p></details>
 
-    <div class="faq">
-        <h3>Does this work with my gym's machines?</h3>
-        <p>Most commercial gym equipment — Technogym, Life Fitness, EGYM, and others — already ships with passive NFC chips. Reps reads the chip's UID and maps it to a machine or exercise after your first tap. No writing to the chip, no changes to the equipment.</p>
-    </div>
+    <h2 id="shortcuts">Siri, Shortcuts and widgets</h2>
+    <details><summary>What can I say to Siri?</summary><ul><li>"Start Push in Reps" (use any routine's name)</li><li>"Start workout in Reps"</li><li>"Repeat last set in Reps"</li><li>"End workout in Reps"</li></ul></details>
+    <details><summary>How do I put a routine on the Action Button?</summary><p>In the Settings app, open Action Button, choose Shortcut, and pick a Reps action such as Start Routine.</p></details>
+    <details><summary>Where are the widgets?</summary><p>Lock Screen widgets show your next set and your streak. In Control Center, add the Start Workout control. While a workout runs, the rest timer shows on your Lock Screen, in the Dynamic Island and in StandBy.</p></details>
 
-    <div class="faq">
-        <h3>What about my home rack?</h3>
-        <p>The Reps Starter Pack includes 20 pre-programmed NFC stickers. Or program your own using the in-app "Program sticker" tool in Settings.</p>
-    </div>
+    <h2 id="data">Import, export and your data</h2>
+    <details><summary>How do I import from Strong or Hevy?</summary><p>Export your workouts as a CSV file from the other app, save it to Files, then open Reps Settings and choose Import from Strong or Hevy. Your past workouts appear in your history and in Apple Health.</p></details>
+    <details><summary>How do I export my history?</summary><p>In Reps Settings, choose Export all sets to CSV to save a spreadsheet file of every workout.</p></details>
+    <details><summary>Do my workouts move to a new iPhone?</summary><p>Workouts live in Apple Health, which moves with your iPhone backup or iCloud. Routines and settings that live only in Reps move with an iPhone backup.</p></details>
+    <details><summary>How do I delete my data?</summary><p>See <a href="data-deletion.html">Delete Your Data</a>. In short: delete the app to remove everything Reps keeps, and delete workouts in the Health app if you want those gone too.</p></details>
 
-    <h2>Form analysis</h2>
+    <h2 id="subscription">Reps Pro</h2>
+    <details><summary>What's free and what's Pro?</summary><p>Logging, routines, programs, history, the Apple Watch app, widgets, stickers, import and export are free with no limits. Reps Pro adds a weekly recap, Strength for life trends, Build by asking, Scan any machine and Form check (beta). Build by asking needs an iPhone with Apple Intelligence.</p></details>
+    <details><summary>How do I cancel?</summary><p>In the Settings app, tap your name, then Subscriptions, then Reps, then Cancel Subscription. Or open Reps Settings and tap Manage Subscription. Cancel at least 24 hours before your renewal date to avoid the next charge. Pro stays on until the end of the period you paid for.</p></details>
+    <details><summary>I paid but Pro isn't unlocked</summary><p>Open Reps Settings and tap Restore Purchases. Make sure you're signed in to the App Store with the Apple Account you used to buy.</p></details>
+    <details><summary>How do I get a refund?</summary><p>Apple handles all payments, so refunds go through Apple at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p></details>
 
-    <div class="faq">
-        <h3>Is my video uploaded anywhere?</h3>
-        <p>No. Video capture, pose analysis, bar-path tracking, and coaching notes happen entirely on your device. By default, video is not saved — only the extracted metrics are kept. You can opt in to saving the video to the app's private sandbox in Settings.</p>
-    </div>
+    <h2 id="devices">Devices</h2>
+    <p>Reps runs on iPhone with iOS 18 or later and Apple Watch with watchOS 11 or later. It isn't available for iPad or Mac.</p>
 
-    <div class="faq">
-        <h3>Why is form analysis not available on my phone?</h3>
-        <p>3D pose analysis requires an iPhone 15 Pro or newer. 2D pose and bar path work on iPhone 12 and newer. Older devices still get motion-based rep counting and numeric feedback.</p>
-    </div>
+    <h2>Still stuck?</h2>
+    <p>Email <a href="mailto:support@denvered.com?subject=Reps%20support">support@denvered.com</a>. A real person reads every message.</p>
+  </div>
+</main>
 
-    <h2>HealthKit</h2>
-
-    <div class="faq">
-        <h3>What does Reps write to Health?</h3>
-        <p>Each workout is saved as an <strong>HKWorkout</strong> of type Traditional Strength Training. Each exercise within the workout is saved as an <strong>HKWorkoutActivity</strong> sub-activity with custom metadata (sets, reps, weight, tempo, RPE, 1RM estimate, form score if analyzed). Heart rate series and energy burned during sets are attached.</p>
-    </div>
-
-    <div class="faq">
-        <h3>What does Reps read from Health?</h3>
-        <p>Workouts, heart rate, HRV, mobility/gait metrics (walking speed, asymmetry, stair speed), sleep stages, body metrics, and — only with your explicit opt-in — menstrual cycle data for periodization suggestions. All processing happens on your device.</p>
-    </div>
-
-    <div class="faq">
-        <h3>How do I revoke health access?</h3>
-        <p>iOS Settings &gt; Privacy &amp; Security &gt; Health &gt; Reps. Toggle off any data type. Reps continues to work; features that depend on that data type will degrade gracefully.</p>
-    </div>
-
-    <h2>Subscription</h2>
-
-    <div class="faq">
-        <h3>What does the free tier include?</h3>
-        <p>Unlimited workouts, routines, history, custom exercises, plate calculator, rest timer, 1RM estimator, CSV export, HealthKit read/write, Apple Watch app, widgets, NFC tap-to-log, Live Activities, and share cards. The notebook is free.</p>
-    </div>
-
-    <div class="faq">
-        <h3>What does Reps Pro unlock?</h3>
-        <p>On-device Foundation Models coaching notes, natural-language workout builder, full video form analysis with bar-path overlay, machine OCR, Mobility × Strength correlation, and natural-language search over your history. The coach is Pro.</p>
-    </div>
-
-    <div class="faq">
-        <h3>How do I cancel?</h3>
-        <p>Settings &gt; [Your Name] &gt; Subscriptions on your iPhone, or open Reps and tap <strong>Manage Subscription</strong>. Cancellation takes effect at the end of the current billing period.</p>
-    </div>
-
-    <div class="faq">
-        <h3>How do I request a refund?</h3>
-        <p>All purchases are processed by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
-    </div>
-
-    <h2>Data &amp; deletion</h2>
-
-    <div class="faq">
-        <h3>How do I delete my data?</h3>
-        <p>Delete the app. All local data is removed. Data written to HealthKit is yours to manage in the Health app: Browse &gt; Workouts &gt; tap a workout &gt; Delete, or use "Delete All Data from Reps" in Privacy &amp; Security &gt; Health &gt; Reps. See the <a href="data-deletion.html">Data Deletion page</a>.</p>
-    </div>
-
-    <h2>Contact</h2>
-
-    <div class="contact">
-        <p>Need help or have a question?<br>
-        <a href="mailto:support@denvered.com">support@denvered.com</a></p>
-        <p style="font-size: 14px; color: #86868b; margin-bottom: 0;">We respond within 2 business days.</p>
-    </div>
-
-    <p class="back"><a href="index.html">← Back to Reps</a></p>
+<footer class="site-footer">
+  <div class="wrap">
+    <nav aria-label="Footer">
+      <a href="./">Home</a>
+      <a href="support.html">Support</a>
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="terms-of-service.html">Terms of Use</a>
+      <a href="health-disclaimer.html">Health Disclaimer</a>
+      <a href="data-deletion.html">Delete Your Data</a>
+    </nav>
+    <p>© 2026 Denvered</p>
+  </div>
+</footer>
 </body>
 </html>
